@@ -2,6 +2,8 @@
 Simple FiveM Container robbery script for ox_target.
 You are not allowed to resell or release my scripts!
 
+Its my first resource in github! :)
+
 Requirements:
    - any es_extended version
    - ox_target
