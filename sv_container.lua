@@ -1,5 +1,5 @@
 function sendDiscordWebhook(message)
-    local discordWebhookUrl = "https://discord.com/api/webhooks/1133500101856350319/YknIc2RTiXFktholzRE93R3qB72jcXyPqQaEHEf6y0Y7ETE9CrBLhg1HKMks2EzjDi9T"
+    local discordWebhookUrl = "PUT_YOUR_WEBHOOK_HERE"
 
     local data = {
         content = message
@@ -12,10 +12,10 @@ end
 lib.callback.register('container:reward', function(source)
     local Config = {
         Items = {
-            {item = 'tablet', minAmount = 1, maxAmount = 1, chance = 15}, -- Chanche 1%
-            {item = 'lockpick', minAmount = 1, maxAmount = 1, chance = 25}, -- 50%
-            {item = 'water', minAmount = 1, maxAmount = 1, chance = 50}, -- 25%
-            {item = 'burger', minAmount = 1, maxAmount = 1, chance = 20}, -- 25%
+            {item = 'tablet', minAmount = 1, maxAmount = 1, chance = 15}, --  15%
+            {item = 'lockpick', minAmount = 1, maxAmount = 1, chance = 25}, -- 25%
+            {item = 'water', minAmount = 1, maxAmount = 1, chance = 50}, -- 50%
+            {item = 'burger', minAmount = 1, maxAmount = 1, chance = 20}, -- 20%
         }
     }
 
