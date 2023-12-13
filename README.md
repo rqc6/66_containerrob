@@ -1,5 +1,6 @@
 # 66_containerrob
 Simple FiveM Container robbery script for ox_target & cd_dispatch.
+**NOT** modproof
 
 You are not allowed to resell or release my scripts!
 Its my first resource in github! :)
