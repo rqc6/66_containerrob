@@ -1,5 +1,5 @@
 # 66_containerrob
-Simple FiveM Container robbery script for ox_target.
+Simple FiveM Container robbery script for ox_target & cd_dispatch.
 
 You are not allowed to resell or release my scripts!
 Its my first resource in github! :)
@@ -8,6 +8,7 @@ Requirements:
    - any es_extended version
    - ox_target
    - ox_lib
+   - cd_dispatch
 
 Installing the script:
 
@@ -18,4 +19,4 @@ Installing the script:
    3. Restart your server
 
 More questions?
-   - Join our Discord for help: https://discord.gg/qfD9J2mrPB
+   - Discord: .rqc_
