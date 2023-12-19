@@ -30,7 +30,7 @@ exports.ox_target:addModel(models, {
         range = 1.5,
         icon = 'fa-solid fa-box',
         item = 'crowbar',
-        canInteract = function()
+        canInteract = function() -- You can remove canInteract if you dont want use weapon to rob
             return GetSelectedPedWeapon(cache.ped) == `weapon_crowbar`
         end,
         onSelect = function()
